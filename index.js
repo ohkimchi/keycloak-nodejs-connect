@@ -315,6 +315,7 @@ Keycloak.prototype.loginUrl = function (uuid, redirectUrl) {
   '&response_type=code';
 };
 
+//logoutUrl
 Keycloak.prototype.logoutUrl = function (redirectUrl) {
   return this.config.realmUrl +
   '/protocol/openid-connect/logout' +
