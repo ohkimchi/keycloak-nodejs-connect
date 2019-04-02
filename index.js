@@ -305,6 +305,7 @@ Keycloak.prototype.getGrantFromCode = function (code, request, response) {
     });
 };
 
+//loginUrl
 Keycloak.prototype.loginUrl = function (uuid, redirectUrl) {
   return this.config.realmUrl +
   '/protocol/openid-connect/auth' +
